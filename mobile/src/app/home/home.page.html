@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Home
+    </ion-title>
+    <ion-buttons slot="end">
+      <ion-icon name="power" size="large" (click)="logout()"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-button (click)="goToDevices()" expand="block">
+    Devices
+  </ion-button>
+
+  <!-- <ion-item button *ngFor="let item of (results | async)">
+      {{item}}
+  </ion-item> -->
+</ion-content>

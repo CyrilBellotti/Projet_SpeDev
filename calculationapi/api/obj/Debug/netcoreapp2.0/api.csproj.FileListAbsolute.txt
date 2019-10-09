@@ -1,0 +1,10 @@
+/Users/lirycxxxx/Projets/Exia/api/api/bin/Debug/netcoreapp2.0/api.deps.json
+/Users/lirycxxxx/Projets/Exia/api/api/bin/Debug/netcoreapp2.0/api.runtimeconfig.json
+/Users/lirycxxxx/Projets/Exia/api/api/bin/Debug/netcoreapp2.0/api.runtimeconfig.dev.json
+/Users/lirycxxxx/Projets/Exia/api/api/bin/Debug/netcoreapp2.0/api.dll
+/Users/lirycxxxx/Projets/Exia/api/api/bin/Debug/netcoreapp2.0/api.pdb
+/Users/lirycxxxx/Projets/Exia/api/api/obj/Debug/netcoreapp2.0/api.csproj.CoreCompileInputs.cache
+/Users/lirycxxxx/Projets/Exia/api/api/obj/Debug/netcoreapp2.0/api.AssemblyInfoInputs.cache
+/Users/lirycxxxx/Projets/Exia/api/api/obj/Debug/netcoreapp2.0/api.AssemblyInfo.cs
+/Users/lirycxxxx/Projets/Exia/api/api/obj/Debug/netcoreapp2.0/api.dll
+/Users/lirycxxxx/Projets/Exia/api/api/obj/Debug/netcoreapp2.0/api.pdb

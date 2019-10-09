@@ -1,0 +1,27 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start" (click)="back()">
+      <ion-icon name="arrow-back" size="large"></ion-icon> Back
+    </ion-buttons>
+    <ion-title>Devices</ion-title>
+    <ion-buttons slot="end">
+      <ion-icon name="power" size="large" (click)="logout()"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <p>My devices</p>
+    <div *ngIf="!devices.length">
+      No device found.
+    </div>
+    <div *ngIf="devices.length">
+      <ion-item  *ngFor="let device of devices">
+        <div (click)="goToDevice(device)">
+          {{device.uid}}
+        </div>
+      </ion-item>
+    </div>
+  </ion-list>
+</ion-content>

@@ -1,0 +1,7 @@
+{
+  "name": "atlantis-mobile",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

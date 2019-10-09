@@ -1,0 +1,10 @@
+/Users/lirycxxxx/Receive/bin/Debug/netcoreapp2.0/Receive.deps.json
+/Users/lirycxxxx/Receive/bin/Debug/netcoreapp2.0/Receive.runtimeconfig.json
+/Users/lirycxxxx/Receive/bin/Debug/netcoreapp2.0/Receive.runtimeconfig.dev.json
+/Users/lirycxxxx/Receive/bin/Debug/netcoreapp2.0/Receive.dll
+/Users/lirycxxxx/Receive/bin/Debug/netcoreapp2.0/Receive.pdb
+/Users/lirycxxxx/Receive/obj/Debug/netcoreapp2.0/Receive.csproj.CoreCompileInputs.cache
+/Users/lirycxxxx/Receive/obj/Debug/netcoreapp2.0/Receive.AssemblyInfoInputs.cache
+/Users/lirycxxxx/Receive/obj/Debug/netcoreapp2.0/Receive.AssemblyInfo.cs
+/Users/lirycxxxx/Receive/obj/Debug/netcoreapp2.0/Receive.dll
+/Users/lirycxxxx/Receive/obj/Debug/netcoreapp2.0/Receive.pdb

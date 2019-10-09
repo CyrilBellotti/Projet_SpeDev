@@ -1,0 +1,21 @@
+version: '3'
+services:
+  mysql:
+    image: mysql
+    restart: always
+    ports:
+      - 3306:3306
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_USER: cyril
+      MYSQL_PASSWORD: azerty
+      MYSQL_DATABASE: test
+
+  rabbit:
+    image: rabbitmq:3.6.6-management
+    environment:
+      RABBITMQ_DEFAULT_USER: cyril
+      RABBITMQ_DEFAULT_PASS: azerty
+    ports:
+      - 5672:5672
+      - 15672:15672

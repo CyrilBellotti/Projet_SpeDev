@@ -1,0 +1,34 @@
+spring:
+  datasource:
+    url: "jdbc:mysql://172.20.10.9:3306/dbrealtimetest?serverTimezone=UTC"
+    # url: "jdbc:mysql://192.168.1.88:3306/dbrealtime?serverTimezone=UTC"
+    username: "cyril"
+    password: "azerty"
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    database-platform: org.hibernate.dialect.MySQL8Dialect
+    show-sql: true
+    properties.hibernate:
+      temp.use_jdbc_metadata_defaults:  false # https://stackoverflow.com/a/42508897
+      jdbc.use_get_generated_keys:      true  # https://stackoverflow.com/questions/31529237
+  rabbitmq:
+    host: 172.20.10.11
+    port: 5672
+    username: cyril
+    password: azerty
+
+server:
+  port: 8080
+
+logging:
+  level:
+    org:
+      hibernate:
+        SQL: trace
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 5000
+        readTimeout: 5000
+        loggerLevel: basic

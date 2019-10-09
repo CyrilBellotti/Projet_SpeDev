@@ -1,0 +1,26 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+    <ion-buttons  *ngIf="isUserLoggedIn()" slot="end">
+      <ion-icon name="power" size="large" (click)="logout()"></ion-icon>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+    <div>
+        <div class="center" *ngIf="!isUserLoggedIn()">
+              <ion-button expand="block" (click)="login()">Login</ion-button>
+              <ion-button expand="block" (click)="signup()">Sign Up</ion-button>
+            </div>
+          
+            <div class="center" *ngIf="isUserLoggedIn()">
+              <h1>Welcome</h1>
+              <h4> {{useremail()}}</h4>
+              <ion-button (click)="goToHome()" expand="block">
+                  Home
+              </ion-button>
+            </div>      
+          </div>
+      
+</ion-content>
